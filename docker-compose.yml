@@ -3,7 +3,7 @@ services:
     image: nginx:alpine
     container_name: static-html-site
     ports:
-      - "80:80"
+      - "8877:80"
     volumes:
       - .:/usr/share/nginx/html
     restart: unless-stopped
